@@ -41,34 +41,31 @@
           <thead class="text-xs text-white uppercase bg-blue-400 dark:bg-gray-700 dark:text-gray-400">
               <tr>
                   <th scope="col" class="px-6 py-3">
-                      ชื่อทริปทัวร์
+                      ลำดับ
                   </th>
                   <th scope="col" class="px-6 py-3">
-                      ชื่อโปรแกรมทัวร์
+                      ชื่อ-นามสกุล ภาษาไทย
                   </th>
                   <th scope="col" class="px-6 py-3">
-                      วันที่เริ่มทริป
+                      หมายเลขบัตรประชาชน
                   </th>
                   <th scope="col" class="px-6 py-3">
-                      วันที่จบทริป
+                      ชื่อ-นามสกุล ภาษาอังกฤษ
                   </th>
                   <th scope="col" class="px-6 py-3">
-                      วัน
+                      หมายเลขพาสปอร์ต
                   </th>
                   <th scope="col" class="px-6 py-3">
-                      คืน
+                      สัญชาติ
                   </th>
                   <th scope="col" class="px-6 py-3">
-                      เที่ยวบินหรือพาหนะอื่นขาไป
+                      เพศ
                   </th>
                   <th scope="col" class="px-6 py-3">
-                      เที่ยวบินหรือพาหนะอื่นขากลับ
+                      ประเภทเตียง
                   </th>
                   <th scope="col" class="px-6 py-3">
-                      จำนวนลูกทัวร์
-                  </th>
-                  <th scope="col" class="px-6 py-3">
-                      รายละเอียดทัวร์
+                      เพิ่มเติม
                   </th>
               </tr>
           </thead>
@@ -76,31 +73,28 @@
           <tbody>
               <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
                   <td class="px-6 py-4">
-                      เที่ยวเกาะเลาะรัก
-                  </td>
-                  <td class="px-6 py-4">
-                      เกาะเสม็ดเสร็จทุกราย
-                  </td>
-                  <td class="px-6 py-4">
-                      16/04/2566
-                  </td>
-                  <td class="px-6 py-4">
-                      20/04/2566
-                  </td>
-                  <td class="px-6 py-4">
-                      5
-                  </td>
-                  <td class="px-6 py-4">
-                      4
-                  </td>
-                  <td class="px-6 py-4">
-                      นครชัยแอร์
-                  </td>
-                  <td class="px-6 py-4">
-                      AirAsia
-                  </td>
-                  <td class="px-6 py-4">
                       1
+                  </td>
+                  <td class="px-6 py-4">
+                      ขยัน ขันแข็ง
+                  </td>
+                  <td class="px-6 py-4">
+                      3256489512365
+                  </td>
+                  <td class="px-6 py-4">
+                      Kayan Kankhang
+                  </td>
+                  <td class="px-6 py-4">
+                      8777/8
+                  </td>
+                  <td class="px-6 py-4">
+                      8
+                  </td>
+                  <td class="px-6 py-4">
+                      ชาย
+                  </td>
+                  <td class="px-6 py-4">
+                      คู่
                   </td>
                   <td class="px-6 py-4">
                       <button type="button"
