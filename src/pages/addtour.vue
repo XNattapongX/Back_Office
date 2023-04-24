@@ -1,4 +1,5 @@
 <template>
+    
  <div class="grid gap-1 sm:grid-cols-2 sm:gap-0.2">
   <section class="bg-white dark:bg-gray-900">
   <div class="py-8 px-1 mx-auto max-w-2xl lg:py-16">
@@ -81,7 +82,7 @@ value=""
         </div>
             </div>
             <div class="grid gap-4 sm:grid-cols-1 sm:gap-6">
-          <button type="submit" class="inline-flex items-center px-5 py-2.5 mt-4 sm:mt-6 text-sm font-medium text-center text-white bg-primary-700 rounded-lg focus:ring-4 focus:ring-primary-200 dark:focus:ring-primary-900 hover:bg-primary-800">
+          <button type="submit" class= "inline-flex items-center px-5 py-2.5 mt-4 sm:mt-6 text-sm font-medium text-center text-white bg-primary-700 rounded-lg focus:ring-4 focus:ring-primary-200 dark:focus:ring-primary-900 hover:bg-primary-800 bg-blue-500">
              สร้างทัวร์
           </button>
         </div>
@@ -117,7 +118,7 @@ value=""
         </div>
           </div>
           <div class="grid gap-4 sm:grid-cols-1 sm:gap-6">
-          <button type="submit" class="inline-flex items-center px-5 py-2.5 mt-4 sm:mt-6 text-sm font-medium text-center text-white bg-primary-700 rounded-lg focus:ring-4 focus:ring-primary-200 dark:focus:ring-primary-900 hover:bg-primary-800">
+          <button type="submit" class="inline-flex items-center px-5 py-2.5 mt-4 sm:mt-6 text-sm font-medium text-center text-white bg-primary-700 rounded-lg focus:ring-4 focus:ring-primary-200 dark:focus:ring-primary-900 hover:bg-primary-800  bg-blue-500">
            เพิ่มโรงเเรม
           </button>
         </div>
