@@ -844,14 +844,14 @@
             </div>
           </li>
           <li>
-            <button data-modal-target="staticModal5" data-modal-toggle="staticModal5"
+            <button data-modal-target="staticModal6" data-modal-toggle="staticModal6"
               class="focus:outline-none text-blue-600 bg-blue-100 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium font-weight-bold rounded-lg text-sm text-white px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
               type="button">
               จัดการใบเสนอราคา
             </button>
 
             <!-- Main modal -->
-            <div id="staticModal5" data-modal-backdrop="static5" tabindex="-1" aria-hidden="true"
+            <div id="staticModal6" data-modal-backdrop="static6" tabindex="-1" aria-hidden="true"
               class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
               <div class="relative w-full max-w-2xl max-h-full">
                 <!-- Modal content -->
@@ -865,7 +865,7 @@
 
                     <button type="button"
                       class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white"
-                      data-modal-hide="staticModal5">
+                      data-modal-hide="staticModal6">
                       <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd"
                           d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
@@ -953,7 +953,7 @@
           </li>
           <li>
             <button data-modal-target="staticModal" data-modal-toggle="staticModal"
-              class="focus:outline-none text-yellow-600 bg-yellow-100 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium font-weight-bold rounded-lg text-sm text-white px-5 py-2.5 mr-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
+              class="focus:outline-none text-yellow-600 bg-yellow-100 hover:bg-yellow-800 focus:ring-4 focus:ring-yellow-300 font-medium font-weight-bold rounded-lg text-sm text-white px-5 py-2.5 mr-2 mb-2 dark:bg-yellow-600 dark:hover:bg-yellow-700 dark:focus:ring-yellow-800"
               type="button">
               จัดการข้อมูลลูกทัวร์
             </button>
