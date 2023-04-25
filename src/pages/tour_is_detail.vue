@@ -911,7 +911,7 @@
                             111,920.00
                           </td>
                           <td class="px-6 py-3">
-                            <button type="button" class="w-full text-blue-600 bg-blue-200 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">ดูใบเบิกเงินสดย่อย</button>
+                            <button type="button" class="w-full text-blue-600 bg-blue-200 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">ดูใบเสนอราคา</button>
                             <button type="button" class="w-full focus:outline-none text-yellow-600 bg-yellow-200 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:focus:ring-yellow-900">ดูใบอื่นๆ</button>
                             <button type="button" class="w-full focus:outline-none text-red-600 bg-red-200 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">ลบข้อมูล</button>
                           </td>
@@ -931,7 +931,7 @@
                             111,920.00
                           </td>
                           <td class="px-6 py-3">
-                            <button type="button" class="w-full text-blue-600 bg-blue-200 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">ดูใบเบิกเงินสดย่อย</button>
+                            <button type="button" class="w-full text-blue-600 bg-blue-200 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">ดูใบเสนอราคา</button>
                             <button type="button" class="w-full focus:outline-none text-yellow-600 bg-yellow-200 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:focus:ring-yellow-900">ดูใบอื่นๆ</button>
                             <button type="button" class="w-full focus:outline-none text-red-600 bg-red-200 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">ลบข้อมูล</button>
                           </td>
@@ -942,7 +942,7 @@
                   <!-- Modal footer -->
                   <div class="flex items-center p-6 space-x-2 border-t border-gray-200 rounded-b dark:border-gray-600">
                     <div class="relative ">
-                      <button type="button" class="text-blue-600 bg-blue-200 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">สร้างใบเสนอราคา</button>
+                      <button type="button" class="text-blue-600 bg-blue-200 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">ดูใบเสนอราคา</button>
                       <button type="button"
                         class="focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">ปิด</button>
                     </div>
@@ -952,70 +952,12 @@
             </div>
           </li>
           <li>
-            <button data-modal-target="staticModal" data-modal-toggle="staticModal"
+            <button 
               class="focus:outline-none text-yellow-600 bg-yellow-100 hover:bg-yellow-800 focus:ring-4 focus:ring-yellow-300 font-medium font-weight-bold rounded-lg text-sm text-white px-5 py-2.5 mr-2 mb-2 dark:bg-yellow-600 dark:hover:bg-yellow-700 dark:focus:ring-yellow-800"
-              type="button">
+              type="button"
+              onclick="location.href='addusertour'">
               จัดการข้อมูลลูกทัวร์
             </button>
-
-            <!-- Main modal -->
-            <div id="staticModal" data-modal-backdrop="static" tabindex="-1" aria-hidden="true"
-              class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
-              <div class="relative w-full max-w-2xl max-h-full">
-                <!-- Modal content -->
-                <div class="relative bg-white rounded-lg shadow-lg dark:bg-gray-700">
-                  <!-- Modal header -->
-                  <div class="flex items-start justify-between p-4 border-b rounded-t dark:border-gray-600">
-                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
-                      รายละเอียดลูกทัวร์ : นายพชร เพียซ้าย
-                    </h3>
-                    <button type="button"
-                      class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white"
-                      data-modal-hide="staticModal">
-                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd"
-                          d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                          clip-rule="evenodd"></path>
-                      </svg>
-                    </button>
-                  </div>
-                  <!-- Modal body -->
-                  <div class="p-6 space-y-6">
-                    <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                      วันที่ออกพาสปอร์ต: 25/03/2566
-                      <br>
-                      วันหมดอายุพาสปอร์ต: 12/04/2566
-                      <br>
-                      วันเดือนปีเกิด: 24/07/2543
-                      <br>
-                      ตรวจลงตราเลขที: -
-                      <br>
-                      หมายเหตุ: -
-                    </p>
-                  </div>
-                  <!-- Modal footer -->
-                  <div class="flex items-center p-6 space-x-2 border-t border-gray-200 rounded-b dark:border-gray-600">
-
-
-                    <form>
-                      <label for="default-search"
-                        class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Comment</label>
-                      <div class="relative ">
-                        <input type="search" id="default-search"
-                          class="block w-75 p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                          placeholder="รายละเอียดเพิ่มเติม" required>
-                        <button type="submit"
-                          class="text-white absolute right-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">คอมเมนต์</button>
-                      </div>
-                    </form>
-                    <div class="relative ">
-                      <button type="button"
-                        class="focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">ปิด</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
         </li>
       </ul>
     </div>
