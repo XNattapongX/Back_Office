@@ -64,7 +64,7 @@
 
 
   <!-- second code -->
-  <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+  <div class="mb-127 relative overflow-x-auto shadow-md">
     <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
       <thead class="text-xs text-white uppercase bg-blue-400 dark:bg-gray-700 dark:text-gray-400">
         <tr>
@@ -294,8 +294,8 @@
     </table>
   </div>
 
-  <footer class="footer bg-white flex-row items-center justify-center rounded-lg shadow dark:bg-gray-900 m-4">
-    <div class="w-1300 flex-row items-center justify-center max-w-screen-xl  px-2 py-8">
+  <footer class="footer bg-white flex-row items-center justify-center shadow dark:bg-gray-900">
+    <div class="ml-160 flex-row items-center justify-center max-w-screen-xl px-0 py-2">
       <div class="sm:flex sm:items-center sm:justify-between">
         <button data-modal-target="popup-modal" data-modal-toggle="popup-modal"
           class="focus:outline-none text-red-600 bg-red-200 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900"
